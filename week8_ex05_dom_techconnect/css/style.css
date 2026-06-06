@@ -1,0 +1,26 @@
+.developer-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.developer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12) !important;
+}
+
+.skill-badge {
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.status-badge-toggle {
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.15s ease;
+}
+
+.status-badge-toggle:hover {
+  opacity: 0.85;
+}
