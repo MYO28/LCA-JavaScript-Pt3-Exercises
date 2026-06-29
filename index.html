@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magical Spell Generator</title>
+    <style>
+      #spellArea {
+        margin: 20px 0;
+        padding: 20px;
+        border: 2px dashed #ccc;
+        min-height: 50px;
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Magical Spell Generator!</h1>
+
+    <ul id="ingredientsList">
+      <li>Dragon Scale</li>
+      <li>Phoenix Feather</li>
+      <li>Unicorn Horn</li>
+    </ul>
+
+    <button id="generateButton">Generate Spell</button>
+    <button id="resetButton">Reset</button>
+
+    <br />
+    <div id="spellArea"></div>
+
+    <script src="week8_ex01_dom_spell_generator.js"></script>
+  </body>
+</html>
